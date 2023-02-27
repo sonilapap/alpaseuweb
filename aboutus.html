@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Blog Website</title>
+
+        <link rel="stylesheet" href="css/style.css"/>
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+
+    </head>
+    <body>
+        <header>
+<!--Nav-->
+            <div class="nav contaioner">
+<!--Logo-->
+            <a href="#" class="logo">ALPAs<span>EU</span></a>
+<!--Login btn-->
+
+
+        </div>
+
+           <div id="eulogo"> 
+            <img src="C:\Users\DOKUMENTE SONILA\APPLICATION_JEANN MONET\EU logo.png"
+            width="5" 
+            height="105">
+        </div> 
+<!--Home-->
+<section class="home" id="home">
+    <div class="home-text container">
+<!--Ndrsh The Blog-->
+            <h2 class="home-title">ALPAsEU</h2>
+
+<!--Ndrsh Subtitle-->
+            <span class="home-subtitle">Jean Monnet Module</span>
+    </div>
+</section>
+
+
+<div class="post-filter container">
+    <a class="filter-item" data-filter='aboutus' href="about.html">Rreth ALPAsEU</a>
+    <span class="filter-item" data-filter='mobile' onclick="changePage()">Tematika</span>                
+    <span class="filter-item active-filter" data-filter='all' onclick="activitiesPage()">Aktivitete</span> 
+    <span class="filter-item" data-filter='tech' onclick="changePage()">Perfituesit</span>
+</div>
+
+
+<script>
+function aboutPage(){
+document.getElementById("aktivitete").style.display = none;
+document.getElementById("about").style.display = block;
+}
+
+function activitiesPage(){
+document.getElementById("aktivitete").style.display = grid;
+document.getElementById("about").style.display = none;
+}
+</script>
+
+<section class="post-content post-container">
+    <h2 class="sub-heading">Create UX design</h2>
+    <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque esse officiis voluptate eveniet iure magnam incidunt! Totam illo incidunt blanditiis eaque consequatur fugit reprehenderit expedita corporis at. Placeat quisquam aspernatur error minima corrupti possimus deserunt dolores explicabo aliquid, totam perferendis fuga, suscipit nostrum quod dignissimos.</p>
+    <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque esse officiis voluptate eveniet iure magnam incidunt! Totam illo incidunt blanditiis eaque consequatur fugit reprehenderit expedita corporis at. Placeat quisquam aspernatur error minima corrupti possimus deserunt dolores explicabo aliquid, totam perferendis fuga, suscipit nostrum quod dignissimos.</p>
+    <h2 class="sub-heading">Create UX design</h2>
+    <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque esse officiis voluptate eveniet iure magnam incidunt! Totam illo incidunt blanditiis eaque consequatur fugit reprehenderit expedita corporis at. Placeat quisquam aspernatur error minima corrupti possimus deserunt dolores explicabo aliquid, totam perferendis fuga, suscipit nostrum quod dignissimos.</p>
+    <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque esse officiis voluptate eveniet iure magnam incidunt! Totam illo incidunt blanditiis eaque consequatur fugit reprehenderit expedita corporis at. Placeat quisquam aspernatur error minima corrupti possimus deserunt dolores explicabo aliquid, totam perferendis fuga, suscipit nostrum quod dignissimos.</p>
+    <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque esse officiis voluptate eveniet iure magnam incidunt! Totam illo incidunt blanditiis eaque consequatur fugit reprehenderit expedita corporis at. Placeat quisquam aspernatur error minima corrupti possimus deserunt dolores explicabo aliquid, totam perferendis fuga, suscipit nostrum quod dignissimos.</p>
+
+</section>
+
+
+
